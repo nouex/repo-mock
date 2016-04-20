@@ -2,4 +2,4 @@ This is from commit A.
 This is from commit B.
 This is from commit C.
 This is from commit D.
-
+This is from commit E.
