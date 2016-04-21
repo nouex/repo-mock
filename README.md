@@ -1,4 +1,4 @@
-## Merge ##
+## Merge (4/21/2016) ##
 [Merge vs Rebase](http://stackoverflow.com/a/16666418/3280654)
 
 * merge conflict arises when two tip-of-branch commits affect same lines
