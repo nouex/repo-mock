@@ -9,3 +9,6 @@
 ***
 
 __TODO__: cherry pick this file to all branches, so it's available on them
+
+NTS: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
+
