@@ -1,4 +1,4 @@
-## Merge (4/21/2016) ##
+## Merging (4/21/2016) ##
 [Merge vs Rebase](http://stackoverflow.com/a/16666418/3280654)
 
 * merge conflict arises when two tip-of-branch commits affect same lines
@@ -11,7 +11,7 @@
 
 ***
 
-__TODO__: cherry pick this file to all branches, so it's available on them
-
 NTS: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
+
+__TODO__: cherry pick this file to all branches, so it's available on them
 
