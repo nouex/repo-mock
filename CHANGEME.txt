@@ -1,1 +1,2 @@
 from commit A
+from commit B
