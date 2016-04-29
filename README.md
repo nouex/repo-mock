@@ -8,6 +8,14 @@
 
 __Remember__: cherry pick this file to all branches, so it's available on them
 
+__Remember__: branches prepended with local- or remote- are equal to its
+counterpart withou the prepending, e.g.,
+  * 'local-merge' -> on GH is 'merge'
+  * 'revert-1' -> on GH is 'local-revert-1'
+
+Keep the convention just because it's already legacy.  Careful tho, remember to
+use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
+
 ***
 
 ## Merging (4/21/2016) ##
