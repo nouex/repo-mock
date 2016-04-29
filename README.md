@@ -15,7 +15,7 @@ __TODO__: cherry pick this file to all branches, so it's available on them
 * GitHub GUI allows you to merge (only if it is non-conflicting), but creates a merge commit
 * GitHub merg squashing allows you to merge a pull request and avoid the unnecessary extra commits by "squashing" it into a single merge commit (Must have no merge conflicts ovbiously).
 
-## Reverting ##
+## Reverting (4/29/2016) ##
 
 * **three turnouts**
   1. revert without conflict
