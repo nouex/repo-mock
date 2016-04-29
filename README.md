@@ -1,9 +1,12 @@
 ### TODO ####
 * test if github's closing of pull requests that are merged locally and pushed from the CLI is independent of the commit message, i.e., if it is conflict-resolved and merged without an explicit message, `git add FILE; git commit`, does GitHub still know that it was merged as to auto close the PR?
 
+* test if the conflict indicators <<<<< ==== >>>>> are automatically removed by
+  git if you miss them when you fix the conflict manually then commit
+
 **NTS**: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
 
-__TODO__: cherry pick this file to all branches, so it's available on them
+__Remember__: cherry pick this file to all branches, so it's available on them
 
 ***
 
