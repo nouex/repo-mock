@@ -1,4 +1,6 @@
 ### TODO ####
+* git merge conflict if one commit is appending to other commit's buffer??? (at the end of another)
+
 * test if github's closing of pull requests that are merged locally and pushed from the CLI is independent of the commit message, i.e., if it is conflict-resolved and merged without an explicit message, `git add FILE; git commit`, does GitHub still know that it was merged as to auto close the PR?
 
 * test if the conflict indicators <<<<< ==== >>>>> are automatically removed by
