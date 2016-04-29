@@ -14,3 +14,18 @@ __TODO__: cherry pick this file to all branches, so it's available on them
 * local merge commit happens only if you resolve merge conflicts
 * GitHub GUI allows you to merge (only if it is non-conflicting), but creates a merge commit
 * GitHub merg squashing allows you to merge a pull request and avoid the unnecessary extra commits by "squashing" it into a single merge commit (Must have no merge conflicts ovbiously).
+
+## Reverting ##
+
+* **three turnouts**
+  1. revert without conflict
+    * when data is *appended* to end of a file buffer
+    * file delete/add commit reverted
+  2. revert with conflict
+    * when fresh data added to file buffer has the buffer's old data *split* so
+      that part or all of the old data is after the fresh data
+
+      If you try to revert a commit that has already been reverted by resolving
+      a conflict first, 3. will **not** happen, another conflict will occur.
+  3. don't revert, commit already reverted
+    * note the second paragraph of 2.
