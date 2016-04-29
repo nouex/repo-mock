@@ -3,4 +3,3 @@ from commit B
 from commit D
 from commit E
 from commit F
-from commit G
