@@ -1,6 +1,12 @@
-__Remember__: cherry pick this file to all branches, so it's available on them
+# Steps to Testing #
 
-__Remember__: branches prepended with local- or remote- are equal to its
+1. Create a main branch for the command being tested at NEW_BRANCH_TEMPLATE.[1]
+
+    e.g. `git checkout -b some-command NEW_BRANCH_TEMPLATE`
+2. Document behavior, caveats, etc. to README.md of that branch.
+3. When finished testing, cherry pick README.md of that branch to master.
+
+[1] branches prepended with local- or remote- are equal to its
 counterpart withou the prepending, e.g.,
   * 'local-merge' -> on GH is 'merge'
   * 'revert-1' -> on GH is 'local-revert-1'
@@ -9,6 +15,7 @@ Keep the convention just because it's already legacy.  Careful tho, remember to
 use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
 
 ***
+# Git Commands #
 
 ## Merging (4/21/2016) ##
 [Merge vs Rebase](http://stackoverflow.com/a/16666418/3280654)
@@ -34,5 +41,6 @@ use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
     * note the second paragraph of 2.
 
 ___
+# Notes to Self #
 
 **NTS**: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
