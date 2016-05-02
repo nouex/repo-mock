@@ -1,5 +1,3 @@
-**NTS**: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
-
 __Remember__: cherry pick this file to all branches, so it's available on them
 
 __Remember__: branches prepended with local- or remote- are equal to its
@@ -34,3 +32,7 @@ use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
       a conflict first, 3. will **not** happen, another conflict will occur.
   3. don't revert, commit already reverted
     * note the second paragraph of 2.
+
+___
+
+**NTS**: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
