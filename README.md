@@ -6,8 +6,8 @@
 2. Document behavior, caveats, etc. to README.md of that branch.
 3. When finished testing, cherry pick README.md of that branch to master.
 
-[1] branches prepended with local- or remote- are equal to its
-counterpart withou the prepending, e.g.,
+**[1]** branches prepended with local- or remote- are equal to its
+counterpart without the prepending, e.g.,
   * 'local-merge' -> on GH is 'merge'
   * 'revert-1' -> on GH is 'local-revert-1'
 
@@ -43,4 +43,4 @@ use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
 ___
 # Notes to Self #
 
-**NTS**: `git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
+`git bisect` will always be special (that slow day at the park with mum in CS, butterfly park or some shit...)
