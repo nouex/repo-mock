@@ -2,7 +2,7 @@
 
 1. Create a main branch for the command being tested at NEW_BRANCH_TEMPLATE.[1]
 
-    e.g. `git checkout -b some-command NEW_BRANCH_TEMPLATE`
+    e.g. `git checkout -b <some-command-name> NEW_BRANCH_TEMPLATE`
 2. Document behavior, caveats, etc. to README.md of that branch.
 3. When finished testing, cherry pick README.md of that branch to master.
 
