@@ -1,1 +1,2 @@
 Hello this first line is original.
+This is a line first introduced in the base branch, i.e. GH-11.
