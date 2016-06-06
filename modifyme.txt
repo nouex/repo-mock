@@ -1,1 +1,2 @@
 Hello this first line is original.
+This is a new line first introduced on the merge-from branch
