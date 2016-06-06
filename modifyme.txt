@@ -1,2 +1,5 @@
 Hello this first line is original.
-This is a line first introduced in the base branch, i.e. GH-11.
+<<<<<<< HEAD
+=======
+This is a new line first introduced on the merge-from branch
+>>>>>>> GH-11-merge-from
