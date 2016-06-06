@@ -20,7 +20,7 @@ use the explicit `git push <repo> <local-b-name>:<remote-b-name>`
 ## Merging (4/21/2016) ##
 [Merge vs Rebase](http://stackoverflow.com/a/16666418/3280654)
 
-* merge conflict arises when newly-introduced commits from the other branch being merged affect the same lines as the latest commit-in-common -- commit-in-common being the relative to the merged and base
+* merge conflict arises when newly-introduced commits from the *other* branch being merged affect the same lines that the new commit(s) from the *base* branch relative to the latest *commit-in-common* -- commit-in-common being the relative to the merged and base
 * local merge commit occurs when coflict is resolved
 * GitHub GUI allows you to merge (only if it is non-conflicting), but creates a merge commit
 * GitHub merge squashing allows you to merge a pull request and avoid the unnecessary extra commits by "squashing" it into a single merge commit (2nd bullet pt must occur, i.e., must have no merge conflicts ovbiously).
